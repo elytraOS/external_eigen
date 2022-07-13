@@ -81,6 +81,11 @@ cc_library_headers {
     ],
     min_sdk_version: "apex_inherit",
     sdk_version: "current",
+
+    cflags: [
+        "-O3",
+    ],
+
 }
 
 subdirs = ["blas"]
